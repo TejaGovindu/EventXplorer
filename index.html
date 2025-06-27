@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventXplorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>EventXplorer</h1>
+    
+    <div>
+      <button class="first" onclick="handleclick()">Click ME!(Basic Click Event)</button>
+    </div>
+     <button class="second" onmouseenter="handlemousein()" onmouseleave="handlemouseout()">Hover Over Me(Basic Enter/Exit)</button>
+     <form>
+        <input type="text" class="matter" oninput="handleinput(event)" placeholder="Type Something Here...!!">
+     </form>
+     <form class="table">
+        <input type="text" placeholder="Username" id="username">
+        <input type="text" placeholder="Password" id="password">
+        <button type="submit" onclick="handlesubmit(event)">Submit</button>
+     </form>
+     <div class="results" id="result">Events will Appear here</div>
+     <script src="main.js"></script>
+     </div>
+</body>
+</html>

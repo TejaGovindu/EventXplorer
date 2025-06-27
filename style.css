@@ -1,0 +1,37 @@
+.header{
+    text-align: center;
+    padding: 10px;
+}
+.first{
+    padding: 15px;
+    margin: 20px auto;
+    width: 70%;
+}
+.second{
+     padding: 15px;
+      width: 70%;
+}
+.matter{
+    padding: 15px;
+    width: 60%;
+    margin: 20px auto;
+}
+.table{
+    padding: 10px;
+    gap: 20px;
+}
+.table input{
+    padding: 10px;
+    width: 29%;
+}
+.table button{
+    padding: 10px;
+}
+.results {
+   overflow-y: auto;
+   border: 1px solid black;
+   padding: 10px;                    /* Space inside the box */
+    margin-top: 20px auto;                 /* Space from elements above */
+    height: 100px;  
+    
+}  
